@@ -1,0 +1,97 @@
+/* Estilos para telas pequenas */
+@media (max-width: 600px) {
+    .-navbar {
+        flex-direction: column;
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .-navbar h1 {
+        font-size: 25px;
+        padding-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .-button-discord {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .-alert {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    .-alert a {
+        padding: 4px 8px;
+        font-size: 12px;
+    }
+
+    .-container {
+        margin: 100px 20px 0 20px;
+        font-size: 20px;
+    }
+
+    .-container h1 {
+        font-size: 35px;
+    }
+
+    .-container p {
+        font-size: 16px;
+        margin: 0 20px; /* Ajustando as margens laterais */
+        margin-bottom: 20px; /* Ajustando a margem inferior */
+        text-align: center; /* Centralizando o texto */
+    }
+
+    .-container img {
+        width: 150px;
+    }
+}
+
+/* Estilos para telas médias */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .-navbar {
+        padding: 15px 30px;
+        font-size: 14px;
+    }
+
+    .-navbar h1 {
+        font-size: 30px;
+        padding-right: 10px;
+    }
+
+    .-button-discord {
+        padding: 9px;
+        font-size: 15px;
+    }
+
+    .-alert {
+        padding: 12px 0;
+        font-size: 16px;
+    }
+
+    .-alert a {
+        padding: 5px 9px;
+        font-size: 14px;
+    }
+
+    .-container {
+        margin: 120px 50px 0 50px;
+        font-size: 25px;
+    }
+
+    .-container h1 {
+        font-size: 40px;
+    }
+
+    .-container p {
+        font-size: 18px;
+        margin: 0 50px; /* Ajustando as margens laterais */
+        margin-bottom: 22px; /* Ajustando a margem inferior */
+        text-align: center; /* Centralizando o texto */
+    }
+
+    .-container img {
+        width: 180px;
+    }
+}
