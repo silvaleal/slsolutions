@@ -1,0 +1,21 @@
+.-alert {
+    background-color: #308dff;
+    padding: 15px 0;
+    color: white; 
+    text-align: center;
+}
+
+.-alert a {
+    color: white;
+    background-color: rgb(255, 255, 255);
+    color: #0074ff;
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.-alert a:hover {
+    background-color: #308dff;
+    color: white;
+    transform: scale(1.1);
+}
