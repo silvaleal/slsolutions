@@ -12,13 +12,14 @@ header .-navbar {
 header .-navbar h1 a {
     padding-right: 20px;
     font-size: 35px;
-    
+    font-weight: 600;
     color: #0074ff;
 }
 
 header .-navbar-left {
     display: flex;
     align-items: center;
+    gap: 15px;
 }
 
 .-button-discord {
@@ -37,7 +38,7 @@ header .-navbar-left {
 
 
 header .-container {
-    color: #014daa;
+    color: #0074ff;
     text-align: center;
     font-size: 30px;
     margin: 150px 100px 0 100px;
